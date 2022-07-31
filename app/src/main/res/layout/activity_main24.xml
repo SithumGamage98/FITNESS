@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity24">
+
+    id="@+id/btn39"
+    android:layout_width="306dp"
+    android:layout_height="62dp"
+    android:backgroundTint="#E470D1"
+    android:onClick="openMain"
+    android:text="VIEW OUR DIET PLAN"
+    android:textColorLink="#EF0202"
+    android:textSize="20dp"
+    app:cornerRadius="30dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.121"
+    tools:ignore="OnClick" />
+
+
+    <Button
+        android:id="@+id/btn58"
+        android:layout_width="265dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#800000"
+        android:onClick="openMain"
+        android:text="MY WORKOUT LIST"
+        android:textColorLink="#EF0202"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn57"
+        android:layout_width="268dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#800000"
+        android:onClick="openMain"
+        android:text="WORKOUT PACKAGES"
+        android:textColorLink="#EF0202"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn59"
+        android:layout_width="306dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#3498DB"
+        android:onClick="openMain"
+        android:text="WIEGHT CONVERTER"
+        android:textColorLink="#EF0202"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

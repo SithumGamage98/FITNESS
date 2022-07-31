@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity26">
+
+    <Button
+        android:id="@+id/btn64"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#800000"
+        android:onClick="openMain"
+        android:text="PACKAGE NAME"
+        android:textColorLink="#EF0202"
+        android:textSize="16dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn40"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn65"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#800000"
+        android:onClick="openMain"
+        android:text="PACKAGE ID"
+        android:textColorLink="#EF0202"
+        android:textSize="16dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn65"
+        android:layout_width="306dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#AF7AC5"
+        android:onClick="openMain"
+        android:text="EXERCIES DETAILS"
+        android:textColorLink="#EF0202"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn66"
+        android:layout_width="306dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#3498DB"
+        android:onClick="openMain"
+        android:text="MY WORKOPUT LIST"
+        android:textColorLink="#EF0202"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
